@@ -1,8 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+body {
+  background: var(--bgLight);
+}
+
 .App {
   font-family: 'Roboto Mono', monospace;
   padding: 0.5rem 3.5rem;
   overflow: hidden;
   color: var(--black);
+}
+
+a {
+  text-decoration: none;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
